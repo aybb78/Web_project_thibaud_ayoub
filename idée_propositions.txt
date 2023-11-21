@@ -1,0 +1,1 @@
+-> commencer par la page d'accueil. garder le temps du début de partie dans une variable.

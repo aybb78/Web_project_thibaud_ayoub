@@ -1,0 +1,3 @@
+Installer postgis en ayant postgres : CtrlF recherche stackbuilder dans c/programmes : puis je me connecte a podtgre sur ce stackbuilder.
+
+On vois bien dans les fichiers d'un programme installé (java par exemple) que tout est stocké dans le programme !! (je peut trouver toutes les images utilisées !). 

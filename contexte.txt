@@ -1,0 +1,4 @@
+faire un escape game; je suis avec ayoub!
+--> Bien faire trois couche sous le format MVC par exemple (vue modele controleur).
+
+--> aller vite mais bien réfléchi pour ensuite rajouter des fonctionnalités.

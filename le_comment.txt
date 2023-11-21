@@ -1,0 +1,8 @@
+- J'ai mon inventaire d'objets: 
+Je dois avoir afficher l'objet de mon inventaire dans une case (l'image est dans une case); je dois capter que j'ai cet objet dans mon inventaire aussi. Tout ca c'est des liens avec l'inventaire. L'objet est créé dans la map, quand je clique dessus, il n'est plus visible. 
+
+--> Pour ca, l'énoncé donne la structure à avoir. 
+
+Je peut fonctionner en 'quand je récupère cet objet, le reste deviens visible; Ainsi la triche est (map de présence) visible que pour les objet visibles. 
+
+-utilisation de leaflet? 
