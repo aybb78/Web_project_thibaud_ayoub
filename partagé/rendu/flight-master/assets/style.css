@@ -1,0 +1,52 @@
+.dizaine {
+    color: red;
+    font-weight: 700;
+  }
+
+p {
+    font-size: 5em;   
+}
+
+#map{
+   height: 800px; 
+}
+
+/* service web */
+body{
+  display:grid;
+  grid-template-rows: 100px 1fr;
+}
+
+#carte {
+  grid-row: 2;
+}
+
+#entete {
+  grid-row: 1;
+}
+
+#entete form{
+  display:flex; 
+  justify-content: center;
+}
+
+#carte{
+  height: 600px; 
+}
+
+/* creation API*/
+#villes {
+  position: absolute;
+  top: 100px;
+  left: 0; right: 0;
+  z-index: 5000;
+  padding: 0;
+  background: lightblue;
+}
+#villes li {
+  padding: 10px;
+  list-style-type: none;
+}
+#villes li:hover {
+  background: white;
+}

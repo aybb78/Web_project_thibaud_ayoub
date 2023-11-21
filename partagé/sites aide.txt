@@ -1,0 +1,14 @@
+Trouver des images transparentes:
+Unsplash
+Pixabay
+freepik
+vecteezy
+Shutterstock
+
+Choix du fond de carte leaflet:
+https://leaflet-extras.github.io/leaflet-providers/preview/
+-thunderforest.Pioneer
+-Esri.WorldStreetMap
+-Esri.WorldImagery
+
+Arrivé à BaseMap.
