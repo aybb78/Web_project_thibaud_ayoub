@@ -1,0 +1,45 @@
+Pour faire le lien entre la BDD le code: 
+J'ai des variables data dans vue qui font le lien avec le flight (par des v-model ...). Le flight fait ensuite certaines request en fonction des données de data (coffre is open ...). Donc c'est au niveau de la récupération des objets (dans le flight) que j'ai des tests.
+
+ex :
+dans data : cof1: true 
+methods (événement): lorsque le coffre s'ouvre qui met cof1 à false. Or pour l'affichage j'ai toujours if this.visible. 
+Puis le flight capter que le coffre est passé à true il refait une requête pour l'autre objet (dans ce cas ce sera plutot l'objet déjà fetche passe de non visible à visible). 
+
+Puis pour ajouter du cool au jeu j'ai une liste de 4 merveilles du monde tirées à partir des 7 au début. Ces 4 sont visibles. Quand 2 sont trouvées les 3 autres deviennent visible. 
+
+Il y a 6 diamants pour finir le jeu et un qui est rouge pour ouvrir le coffre de l'atlantide. 
+
+
+Pour envoyer le nom du joueur et le nom du prof à la page jeu je fais un fetch vers l'autre page.
+
+Pour la BDD, faire un CSV qu'on importe ensuite dans la BDD (pour pouvoir modifier super facilement la BDD (je la partage avec le code de création).
+
+On stocke les étapes du jeu où doivent apparaitre tel ou tel objet avec un numéro dans le data. Le jeu commence à l'ensg avec juste Léon qui te parle de la mort de vincent ou victor et te dis d'aller voir léonardo da vinci.
+vue ( data ( return etape : 1; )). 
+Léon, léonardo et les bonus/malus du jeu sont dispos à ce moment là (leur valeur c'est 1). 
+Merveilles du monde 2 : après que leonardo a donner sa mission.
+Code de leonardo : 3.
+Ouverture de la cave du MRS : 4. 
+
+Dans la BDD, je stocke du texte pour chaque objet : chaque diamand pourra expliquer briévemment la merveille du monde; et sinon ça sera un indice. 
+
+--------------------
+
+Coor des merveilles:
+
+pour convertir : https://www.rapidtables.org/fr/convert/number/degrees-minutes-seconds-to-degrees.html
+
+La pyramide de Khéops :  29° 58′ 33,8″ nord, 31° 07′ 49,5″ est
+
+Jardin suspendus de babylone : 32° 32′ 08″ nord, 44° 25′ 39″ est
+
+Statue de zeus olympie : 38° 38′ 16″ nord, 21° 37′ 48″ est 
+
+Temple dartemis ephese : 37° 56′ 59″ nord, 27° 21′ 50″ est 
+
+Mausolée halicarnasse : 37° 02′ 17″ nord, 27° 25′ 27″ est 
+
+Colosse de rhodes : 36° 27′ 04″ nord, 28° 13′ 40″ est 
+
+Phare d'Alexandrie : 31° 12′ 53″ nord, 29° 53′ 10″ est 

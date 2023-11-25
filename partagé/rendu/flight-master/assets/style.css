@@ -1,52 +1,55 @@
-.dizaine {
-    color: red;
-    font-weight: 700;
-  }
+/*  */
 
-p {
-    font-size: 5em;   
+/*  Mise en page au sein du jeu */
+body {
+  display: grid;  
+  grid-template-rows: 100px 1fr;                        		 
+  grid-template-columns: 1fr 200px; 
+  background : black url(images/indiana.jpg);	
+  background-size : 100% 100%; 
+}
+
+#title{
+    grid-column: 1; 
+    grid-row: 1; 
+}
+
+#inventaire{
+  grid-column: 2; 
+  grid-row: 1/span 2; 
+  text-align:center; 
+}
+
+#son{
+  grid-column: 2; 
+  grid-row: 1; 
+  text-align:right; 
 }
 
 #map{
-   height: 800px; 
+  grid-column: 1; 
+  grid-row: 2; 
 }
 
-/* service web */
-body{
-  display:grid;
-  grid-template-rows: 100px 1fr;
+/* Objets */
+.texte{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+  font-size: 2em;
+  font-weight: 700;
 }
 
-#carte {
-  grid-row: 2;
-}
-
-#entete {
-  grid-row: 1;
-}
-
-#entete form{
-  display:flex; 
-  justify-content: center;
-}
-
-#carte{
-  height: 600px; 
-}
-
-/* creation API*/
-#villes {
-  position: absolute;
-  top: 100px;
-  left: 0; right: 0;
-  z-index: 5000;
-  padding: 0;
-  background: lightblue;
-}
-#villes li {
-  padding: 10px;
-  list-style-type: none;
-}
-#villes li:hover {
-  background: white;
+#speakerButton {
+  background-color: #01080f; /* Couleur de fond */
+  border: none;
+  color: white;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
 }

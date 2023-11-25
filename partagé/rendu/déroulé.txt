@@ -1,0 +1,21 @@
+L'aventurié "ton nom" reçoit un message de Maitre Vincent De Oliveira/ Victor (a choisir) après sa mort (le grand maitre est mort de vieilleisse). 
+Vincent a indiqué a Victor que Victor devait faire ... :
+
+Victor doit aller trouver l'ami de Vincent : Leonard de vinci. 
+
+Indique de trouver la maison de leonard de vinci. Mr Leonard te demande de lui ramener 7 diamands.
+
+On dois chercher les 7 merveilles du monde pour obtenir 7 diamands (un a chaque position de merveille).
+
+Puis Leonard de vinci te donne un code pour aller trouver le trésor (et te dit : et il reste encore de nombreux trésors... : +30 secondes pour les serpents -1min pour les bonus.) dans la cave du MRS! (qui libère l'objet CSS).
+
+Le jeu ce finis quand on a récupéré le livre CSS. 
+
+//Ainsi tous les types d'objets sont pris en compte. Il reste à mettre des serpents, des medicaments (en aléatoire), le trésor d'atlantide (en aléatoire), le trésor de la tribu inca...
+
+//quand je clique sur un objet ca m'affiche "diamand de la pyramide de keops"; "cave du MRS"...
+
+//Vous avez 20 minutes avant que le trésor ne subisse un autodafé. (mettre en pause le jeu?)
+
+(idée pa ouf : le jeu commence dans la maison de l'étudiant; on ne peut dézoomer plus qu'un certains truc et on doit cliquer au bureau de vincent pour dézoomer plus).
+
