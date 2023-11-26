@@ -10,7 +10,7 @@
     </div>
     
     <div id="son">   
-        <button id="speakerButton" onclick="toggleAudio()">🔊</button>
+        <button id="speakerButton" onclick="toggleAudio()">&#x1F507</button>
         <audio id="myAudio" loop>
             <source src="assets/audio/intro.m4a" type="audio/mp3">
             Votre navigateur ne supporte pas l'élément audio.
@@ -35,11 +35,14 @@
 
     <script>
         var audio = document.getElementById("myAudio");
+        var bouton = document.getElementById("speakerButton");
         function toggleAudio() {
             if (audio.paused) {
                 audio.play();
+                bouton.innerHTML = "&#x1F50A";
             } else {
                 audio.pause();
+                bouton.innerHTML = "&#x1F507";
             }
         }
     </script>

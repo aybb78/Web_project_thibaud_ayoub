@@ -33,7 +33,7 @@ body {
 }
 
 #speakerButton {
-  background-color: #01080f; /* Couleur de fond */
+  background-color: orange; 
   border: none;
   color: white;
   padding: 15px 20px;
@@ -90,8 +90,10 @@ form {
 }
 
 #start-button{
+  background-color: orange;
   font-size: 17px;
 }
 #choix{
+  background-color: orange;
   font-size: 17px;
 }
