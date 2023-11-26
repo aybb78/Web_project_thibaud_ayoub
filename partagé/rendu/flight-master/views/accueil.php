@@ -20,16 +20,16 @@
     <div id="contenu">
         <form action="index.php" method="get">
             <label id= "for" for="name">Votre pseudo :</label>
-            <input type="text" name="pseudo" required>
+            <input id= "choix" type="text" name="pseudo" required>
             <br>
             <label id= "for" for="prof">Votre mentor :</label>
-            <select name="Mentor" required>
+            <select id= "choix" name="Mentor" required>
                 <option value="" disabled selected>Choisissez un mentor</option>
                 <option value="1">Victor</option>
                 <option value="2">Vincent</option>
             </select>
             <br>
-            <button type="submit">Commencer</button>
+            <button id="start-button" type="submit">Commencer</button>
         </form>
     </div>
 
