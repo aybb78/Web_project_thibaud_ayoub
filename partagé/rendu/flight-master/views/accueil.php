@@ -18,7 +18,7 @@
     </div>
 
     <div id="contenu">
-        <form action="index.php" method="get">
+        <form action="views/jeu.php" method="post">
             <label id= "for" for="name">Votre pseudo :</label>
             <input id= "choix" type="text" name="pseudo" required>
             <br>

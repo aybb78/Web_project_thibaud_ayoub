@@ -36,6 +36,8 @@ Vue.createApp({
             });
         var myIcon = L.marker([29.97606, 31.13042], {icon: diamondblue})
         objects.addLayer(myIcon);
+
+        
     }
 }).mount('#app')
 
